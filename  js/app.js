@@ -10,7 +10,7 @@ function guessName(){
 function guessAge(){
     var Age = prompt('I am in my 20s, yes or no ?');
     if(Age.toLowerCase() == 'yes' || Age.toLowerCase() =='y'){
-        aleAgert('NO, wrong answer! I am in my 20s');
+        alert('NO, wrong answer! I am in my 20s');
         correctAnswer++ ;
     }else if (Age.toLowerCase() == 'no' || Age.toLowerCase() =='n'){
         alert('yes, that is correct! I am in my 20s');
