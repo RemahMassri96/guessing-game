@@ -11,9 +11,12 @@ function guessAge(){
     var Age = prompt('I am in my 20s, yes or no ?');
     if(Age.toLowerCase() == 'yes' || Age.toLowerCase() =='y'){
         alert('NO, wrong answer! I am in my 20s');
+        //console.log('no wrong answer');
         correctAnswer++ ;
     }else if (Age.toLowerCase() == 'no' || Age.toLowerCase() =='n'){
         alert('yes, that is correct! I am in my 20s');
+                //console.log('yes correct answer');
+
     }// end if 1
 }
 
@@ -22,10 +25,14 @@ function guessStudies(){
 
     if(Studies.toLowerCase() == 'yes' || Studies.toLowerCase() == 'y'){
         alert('yes, that is correct answer :)');
+            //console.log('yes correct answer');
+
         correctAnswer ++ ;
 
     } else if (Studies.toLowerCase() == 'no' || Studies.toLowerCase() =='n'){
-        alert('no, wrong answer! I am an engineer')
+        alert('no, wrong answer! I am an engineer');
+                //console.log('no wrong answer');
+
     }// end if 2
 }
 
@@ -35,10 +42,14 @@ function guessWork(){
 
     if(lastWork.toLowerCase() == 'yes' || lastWork.toLowerCase() == 'y'){
         alert('yes, that is correct :)')
+            //console.log('yes correct answer');
+
         correctAnswer++ ;
     
     }else if (lastWork.toLowerCase() == 'no' || lastWork.toLowerCase() == 'n'){
         alert('NO, wrong answer! I did')
+                //console.log('no wrong answer');
+
        
     }// end if 3
 }
@@ -49,10 +60,14 @@ function guessOther(){
 
     if(OtherlastWork.toLowerCase() == 'yes' || OtherlastWork.toLowerCase() == 'y'){
         alert('yes, that is correct :)')
+                    //console.log('yes correct answer');
+
         correctAnswer++ ;
     
     }else if (OtherlastWork.toLowerCase() == 'no' || OtherlastWork.toLowerCase() =='n'){
         alert('NO, wrong answer! I did')
+                //console.log('no wrong answer');
+
     }// end if 4
 }
 
@@ -63,9 +78,13 @@ function guessYear(){
     if(programmingStartingYear.toLowerCase() == 'yes' || programmingStartingYear.toLowerCase() == 'y'){
         alert('NO, wrong answer! I started in 2017');
         correctAnswer++ ;
+                        //console.log('no wrong answer');
+
     
     }else if (programmingStartingYear.toLowerCase() == 'no' || programmingStartingYear.toLowerCase() == 'n'){
         alert('yes, that is correct :)')
+                    //console.log('yes correct answer');
+
     }// end if 5
 }
 
